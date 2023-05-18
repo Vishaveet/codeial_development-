@@ -1,0 +1,15 @@
+<footer>
+    <div id="footer-container">
+        <div id="heding">@ Coding Ninjas. All Right Resererd</div>
+        <div id="body">
+            <div id="home">
+                <a href="/">Home</a>
+            </div>
+            <% if(locals.user){%>
+            <div id="profile">
+                <a href="/users/profile/<%= locals.user.id%>">Profile</a>
+            </div>
+            <%}%>
+        </div>
+    </div>
+</footer>

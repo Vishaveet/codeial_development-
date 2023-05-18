@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#footer-text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(139, 255, 139);
+    text-align: center;
+}
